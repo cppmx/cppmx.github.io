@@ -1,7 +1,19 @@
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<meta charset="utf-8">
-<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600|Special+Elite" rel="stylesheet" />
-<link href="{{ 'css/bootstrap.min.css' | absolute_url }}" rel="stylesheet">
-<link href="{{ 'css/font-awesome.min.css' | absolute_url }}" rel="stylesheet">
-<link href="{{ 'css/site.css' | absolute_url }}" rel="stylesheet">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600|Special+Elite" rel="stylesheet" />
+        <link href="{{ 'css/bootstrap.min.css' | absolute_url }}" rel="stylesheet">
+        <link href="{{ 'css/font-awesome.min.css' | absolute_url }}" rel="stylesheet">
+        <link href="{{ 'css/site.css' | absolute_url }}" rel="stylesheet">
+        {% if page.type == 'article' %}
+        <meta property="og:url" content="{{ page.url | absolute_url }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="{{ page.short }}" />
+        {% if page.image %}
+        <meta property="og:image" content="{{ post.image | absolute_url }}" />
+        {% else %}
+        {% assign genericImage = 'images/development.jpg' %}
+        <meta property="og:image" content="{{ genericImage | absolute_url }}" />
+        {% endif %}
+        {% endif %}
