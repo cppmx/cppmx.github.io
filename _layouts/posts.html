@@ -16,16 +16,16 @@ layout: 'default'
                         {% assign genericImage = 'images/' | append: filter | append: '.jpg' %}
                         <img class="card-img-top img-fluid" src="{{ genericImage | absolute_url }}" alt="{{ post.title }} screenshot">
                         {% endif %}
-                    <div class="card-body">
-                        <h5 class="card-title">{{ post.title }}</h5>
-                        <p class="card-text">{{ post.short }}</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ post.url | absolute_url }}">View</a>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ post.title }}</h5>
+                            <p class="card-text">{{ post.short }}</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ post.url | absolute_url }}">View</a>
+                            </div>
+                            <small class="text-muted">{{ post.date | date_to_long_string }}</small>
+                            </div>
                         </div>
-                        <small class="text-muted">{{ post.date | date_to_long_string }}</small>
-                        </div>
-                    </div>
                     </div>
                 </div>
             {% endfor %}

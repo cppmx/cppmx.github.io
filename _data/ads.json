@@ -1,0 +1,16 @@
+{
+    "books": [
+        {
+            "id": 1942788001,
+            "title": "Fundamentals of Software Architecture: An Engineering Approach (English Edition)",
+            "author": "O'Reilly Media",
+            "url": "https://amzn.to/3iOZPnQ"
+        },
+        {
+            "id": 1942788002,
+            "title": "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations",
+            "author": "It Revolution Press",
+            "url": "https://amzn.to/2Y4MmR0"
+        }
+    ]
+}
