@@ -4,6 +4,7 @@
 
 title: Welcome
 layout: default
+keywords: development videogames artificial intelligence devops topics
 ---
 
 <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
