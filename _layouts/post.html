@@ -34,8 +34,9 @@ layout: 'default'
     </div>
     <aside class="col-md-4 blog-sidebar">
         <div class="card mb-4 box-shadow">
-            {% assign ads = site.data.ads %}
-            {% for ad in ads['books'] %}
+            {% assign adType = page.categories | first  %}
+            {% assign ads = site.data.ads['books'] | where: "category", adType %}
+            {% for ad in ads %}
                 {% assign img = 'images/covers/' | append: ad.id | append: '.jpg' %}
                 <img class="card-img-top img-fluid" src="{{ img | absolute_url }}" alt="{{ ad.title }} screenshot">
                 <div class="card-body">
