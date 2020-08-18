@@ -1,6 +1,13 @@
 {
     "books": [
         {
+            "id": 1942788000,
+            "title": "C++ Primer",
+            "author": "Stanley Lippman",
+            "url": "https://amzn.to/2Yel4Yr",
+            "category": "development"
+        },
+        {
             "id": 1942788001,
             "title": "Fundamentals of Software Architecture: An Engineering Approach (English Edition)",
             "author": "O'Reilly Media",
@@ -27,6 +34,20 @@
             "author": "Brian Hambling, Peter Morgan, Angelina Samaroo, Geoff Thompson, Peter Williams",
             "url": "https://amzn.to/2Q2ZQsj",
             "category": "tests"
+        },
+        {
+            "id": 1942788005,
+            "title": "Test Driven Development: By Example",
+            "author": "Kent Beck",
+            "url": "https://amzn.to/3181m2r",
+            "category": "tests"
+        },
+        {
+            "id": 1942788006,
+            "title": "Becoming a DevOps",
+            "author": "Mateusz Tryczyński",
+            "url": "https://amzn.to/3kYjLa0",
+            "category": "devops"
         }
     ]
 }
