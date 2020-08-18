@@ -12,19 +12,16 @@ layout: 'default'
         </div>
         <div class="social top center networks-5 ">
             <!-- Facebook Share Button -->
-            <a class="fbtn share facebook" href="javascript:void(0)">
+            <a class="fbtn share facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="__blank">
                 <i class="fa fa-facebook"></i>
             </a>
             <!-- Twitter Share Button -->
-            <a class="fbtn share twitter" href="javascript:void(0)">
+            {% assign hashtags = page.categories | join: "," %}
+            <a class="fbtn share twitter" href="https://twitter.com/intent/tweet?text={{page.short}}%0A%0A&url={{ page.url | absolute_url }}&hashtags={{hashtags}}">
                 <i class="fa fa-twitter"></i>
             </a>
-            <!-- Pinterest Share Button -->
-            <a class="fbtn share pinterest" href="javascript:void(0)">
-                <i class="fa fa-pinterest"></i>
-            </a>
             <!-- LinkedIn Share Button -->
-            <a class="fbtn share linkedin" href="javascript:void(0)">
+            <a class="fbtn share linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{page.title}}&summary={{page.short}}&source={{ page.url | absolute_url }}" target="__blank">
                 <i class="fa fa-linkedin"></i>
             </a>
             </a>
@@ -51,5 +48,6 @@ layout: 'default'
     </aside>
 </div>
 {% assign share_js = 'js/share.js' %}
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{ share_js | absolute_url }}"></script>
