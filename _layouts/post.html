@@ -5,7 +5,12 @@ layout: 'default'
     <div class="col-md-8 blog-post">
         <h2 class="blog-post-title">{{page.title}}</h2>
         <p class="blog-post-meta border-bottom">
-            {{ page.date | date_to_string }} by <a href="#">{{page.author}}</a>
+            {{ page.date | date_to_string }} by <a href="http://bit.ly/ccolonr" target="__blank">{{page.author}}</a>
+            <span class="social-sub">Share on:
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="__blank"><i class="fa fa-facebook" title="Facebook"></i></a>&nbsp;
+                <a href="https://twitter.com/intent/tweet?text={{page.short}}%0A%0A&url={{ page.url | absolute_url }}&hashtags={{hashtags}}"><i class="fa fa-twitter" aria-hidden="true" target="_blank" rel="noopener noreferrer" title="Twitter"></i></a>&nbsp;
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{page.title}}&summary={{page.short}}&source={{ page.url | absolute_url }}" target="__blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a>
+            </span>
         </p>
         <div class="content">
             {{ content }}
