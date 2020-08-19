@@ -5,77 +5,88 @@
             "title": "C++ Primer",
             "author": "Stanley Lippman",
             "url": "https://amzn.to/2Yel4Yr",
-            "category": "development"
+            "category": "development",
+            "tags": "dev,cpp"
         },
         {
             "id": 1942788001,
             "title": "Fundamentals of Software Architecture: An Engineering Approach (English Edition)",
             "author": "O'Reilly Media",
             "url": "https://amzn.to/3iOZPnQ",
-            "category": "development"
+            "category": "development",
+            "tags": "dev,software,architecture"
         },
         {
             "id": 1942788002,
             "title": "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations",
             "author": "It Revolution Press",
             "url": "https://amzn.to/2Y4MmR0",
-            "category": "devops"
+            "category": "devops",
+            "tags": "devops,agile"
         },
         {
             "id": 1942788003,
             "title": "Agile Testing: A Practical Guide for Testers and Agile Teams (Inglés) Pasta blanda – 26 diciembre 2008",
             "author": "Lisa Crispin, Janet Gregory",
             "url": "https://amzn.to/2Q1fJzr",
-            "category": "tests"
+            "category": "tests",
+            "tags": "testing,agile"
         },
         {
             "id": 1942788004,
             "title": "Software Testing: An ISTQB-BCS Certified Tester Foundation guide",
             "author": "Brian Hambling, Peter Morgan, Angelina Samaroo, Geoff Thompson, Peter Williams",
             "url": "https://amzn.to/2Q2ZQsj",
-            "category": "tests"
+            "category": "tests",
+            "tags": "testing,agile"
         },
         {
             "id": 1942788005,
             "title": "Test Driven Development: By Example",
             "author": "Kent Beck",
             "url": "https://amzn.to/3181m2r",
-            "category": "tests"
+            "category": "tests",
+            "tags": "testing,tdd,agile"
         },
         {
             "id": 1942788006,
             "title": "Becoming a DevOps",
             "author": "Mateusz Tryczyński",
             "url": "https://amzn.to/3kYjLa0",
-            "category": "devops"
+            "category": "devops",
+            "tags": "devops,agile"
         },
         {
             "id": 1942788007,
             "title": "Artificial Intelligence with Python",
             "author": "Alberto Artasanchez",
             "url": "https://amzn.to/3aJWWlx",
-            "category": "ai"
+            "category": "ai",
+            "tags": "ai,python"
         },
         {
             "id": 1942788008,
             "title": "Artificial Intelligence By Example - Second Edition",
             "author": "Denis Rothman",
             "url": "https://amzn.to/2EbJhYL",
-            "category": "ai"
+            "category": "ai",
+            "tags": "ai,dev"
         },
         {
             "id": 1942788009,
             "title": "Hands-On Game Development without Coding",
             "author": "Lucas Bertolini",
             "url": "https://amzn.to/3j0Ryxv",
-            "category": "game"
+            "category": "game",
+            "tags": "videogames,dev"
         },
         {
             "id": 1942788010,
             "title": "Game Programming Patterns",
             "author": "Lucas Bertolini",
             "url": "https://amzn.to/3gcvn5u",
-            "category": "game"
+            "category": "game",
+            "tags": "videogames,dev,pattern"
         }
     ]
 }
