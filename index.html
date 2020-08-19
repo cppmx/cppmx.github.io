@@ -8,7 +8,6 @@ keywords: development videogames artificial intelligence devops topics
     <div class="col-md-6 px-0">
         <h1 class="display-4 font-italic">{{ page.title }}</h1>
         <p class="lead my-3">{{ site.description }}</p>
-        <!--<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>-->
     </div>
 </div>
 
@@ -18,7 +17,7 @@ keywords: development videogames artificial intelligence devops topics
             {% assign sections = site.data.sections | sort: 'name' %}
             {% for section in sections %}
                 <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">{% assign image_url = 'images/' | append: section.name | append: '.jpg' %}
+                    <div class="card mb-4 box-shadow">{% assign image_url = 'images/' | append: section.image | append: '.jpg' %}
                         <img class="card-img-top" src="{{ image_url | absolute_url }}" alt="Card image cap">
                         <div class="card-body">
                             <p class="card-text">{{ section.description }}</p>
@@ -26,13 +25,13 @@ keywords: development videogames artificial intelligence devops topics
                                 <div class="btn-group">{% assign posts_url = '/' | append: section.url | append: '.html' %}
                                     <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ posts_url | absolute_url }}">Posts</a>
                                     <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ "/library.html" | absolute_url }}">Books</a>
-                                </div> <!-- btn-group -->{% assign posts_count = site.posts | where: "categories", section.name | size %}
+                                </div>{% assign posts_count = site.posts | where: "categories", section.name | size %}
                                 <small class="text-muted">Posts: {{posts_count}}</small>
-                            </div> <!-- d-flex justify-content-between align-items-center -->
-                        </div> <!-- card-body -->
-                    </div> <!-- card mb-4 box-shadow -->
-                </div> <!-- col-md-4 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             {% endfor %}
-        </div> <!-- row -->
-    </div> <!-- container -->
-</div> <!-- album py-5 bg-light -->
+        </div>
+    </div>
+</div>
