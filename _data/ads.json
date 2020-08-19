@@ -48,6 +48,34 @@
             "author": "Mateusz Tryczyński",
             "url": "https://amzn.to/3kYjLa0",
             "category": "devops"
+        },
+        {
+            "id": 1942788007,
+            "title": "Artificial Intelligence with Python",
+            "author": "Alberto Artasanchez",
+            "url": "https://amzn.to/3aJWWlx",
+            "category": "ai"
+        },
+        {
+            "id": 1942788008,
+            "title": "Artificial Intelligence By Example - Second Edition",
+            "author": "Denis Rothman",
+            "url": "https://amzn.to/2EbJhYL",
+            "category": "ai"
+        },
+        {
+            "id": 1942788009,
+            "title": "Hands-On Game Development without Coding",
+            "author": "Lucas Bertolini",
+            "url": "https://amzn.to/3j0Ryxv",
+            "category": "game"
+        },
+        {
+            "id": 1942788010,
+            "title": "Game Programming Patterns",
+            "author": "Lucas Bertolini",
+            "url": "https://amzn.to/3gcvn5u",
+            "category": "game"
         }
     ]
 }
