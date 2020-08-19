@@ -1,0 +1,30 @@
+---
+layout: 'default'
+---
+<h1 class="pb-3 mb-4 font-italic border-bottom">{{page.title}}</h1>
+<h5>{{ page.description }}</h5>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            {% assign books = site.data.ads['books'] | where: "category", page.query %}
+            {% for book in books %}
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    {% assign image_url = 'images/covers/' | append: book.id | append: '.jpg' %}
+                    <img class="card-img-top img-fluid" src="{{ image_url | absolute_url }}" alt="{{ book.title }} cover">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ book.title }}</h5>
+                        <p class="card-text">By {{ book.author }}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a type="button" class="btn btn-sm btn-outline-secondary"
+                                    href="{{ book.url | absolute_url }}">View more info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
