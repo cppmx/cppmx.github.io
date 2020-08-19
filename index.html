@@ -15,8 +15,8 @@ keywords: development videogames artificial intelligence devops topics
 <div class="album py-5 bg-light">
     <div class="container">
         <div class="row">
-            {% assign sections = site.data.sections %}
-            {% for section in site.data.sections %}
+            {% assign sections = site.data.sections | sort: 'name' %}
+            {% for section in sections %}
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">{% assign image_url = 'images/' | append: section.name | append: '.jpg' %}
                         <img class="card-img-top" src="{{ image_url | absolute_url }}" alt="Card image cap">
