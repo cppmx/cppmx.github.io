@@ -1,0 +1,12 @@
+- name: development
+  description: Development topics
+  url: development
+- name: tests
+  description: Testing topics
+  url: testing
+- name: ai
+  description: Artificial Intelligence topics
+  url: ai
+- name: game
+  description: Videogames topics
+  url: videogames
