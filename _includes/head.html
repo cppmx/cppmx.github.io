@@ -6,6 +6,7 @@
         <link href="{{ 'css/font-awesome.min.css' | absolute_url }}" rel="stylesheet">
         <link href="{{ 'css/site.css' | absolute_url }}" rel="stylesheet">
         {% if page.type == 'article' %}
+        <!-- Facebook -->
         <meta property="fb:app_id" content="157840897615111" />
         <meta property="og:url" content="{{ page.url | absolute_url }}" />
         <meta property="og:type" content="article" />
@@ -17,6 +18,13 @@
         {% assign genericImage = 'images/development.jpg' %}
         <meta property="og:image" content="{{ genericImage | absolute_url }}" />
         {% endif %}
+
+        <!-- Twitter -->
+        <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        <meta name="twitter:description" content="{% if page.short %}{{ page.short }}{% else %}{{ site.description }}{% endif %}">
+        <meta name="twitter:site" content="@cppmx" />
+        <meta name="twitter:creator" content="@3d_carlos">
+        <meta name="twitter:card" content="summary">
         {% endif %}
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
