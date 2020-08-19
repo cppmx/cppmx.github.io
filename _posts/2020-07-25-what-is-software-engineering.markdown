@@ -3,7 +3,7 @@ layout: post
 type: article
 title:  What Is Software Engineering?
 date:   2020-07-25 09:00:00 -0500
-categories: development tests
+categories: development
 author: Carlos Colón
 short: Have you ever wondered what software engineering is and why it is so important?
 ---
