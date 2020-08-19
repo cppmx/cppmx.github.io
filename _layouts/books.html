@@ -13,8 +13,6 @@ layout: 'default'
                     {% assign image_url = 'images/covers/' | append: book.id | append: '.jpg' %}
                     <img class="card-img-top img-fluid" src="{{ image_url | absolute_url }}" alt="{{ book.title }} cover">
                     <div class="card-body">
-                        <h5 class="card-title">{{ book.title }}</h5>
-                        <p class="card-text">By {{ book.author }}</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <a type="button" class="btn btn-sm btn-outline-secondary"
