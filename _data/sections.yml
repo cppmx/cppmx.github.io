@@ -1,15 +1,20 @@
-- name: development
+- name: Development
   description: Development topics
+  image: development
   url: development
-- name: tests
+- name: Testing
   description: Testing topics
+  image: tests
   url: testing
-- name: ai
+- name: Artificial Intelligence
   description: Artificial Intelligence topics
+  image: ai
   url: ai
-- name: game
+- name: Videogames
   description: Videogames topics
+  image: game
   url: videogames
-- name: algorithm
+- name: Algorithms
   description: Algorithm topics
+  image: algorithm
   url: algorithms
