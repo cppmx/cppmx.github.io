@@ -10,3 +10,6 @@
 - name: game
   description: Videogames topics
   url: videogames
+- name: algorithm
+  description: Algorithm topics
+  url: algorithms
