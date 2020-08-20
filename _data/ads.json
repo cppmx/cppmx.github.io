@@ -103,6 +103,22 @@
             "url": "https://amzn.to/31a37w2",
             "category": "algorithm",
             "tags": "algorithms,dev,design"
+        },
+        {
+            "id": 1942788013,
+            "title": "Python for Devops: Learn Ruthlessly Effective Automation",
+            "author": "Noah Gift",
+            "url": "https://amzn.to/3271Mp7",
+            "category": "development",
+            "tags": "devops,python,dev"
+        },
+        {
+            "id": 1942788014,
+            "title": "Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation",
+            "author": "Jez Humble",
+            "url": "https://amzn.to/3aEtTzK",
+            "category": "development",
+            "tags": "devops,ContinuousDelivery,testing,automation"
         }
     ]
 }
