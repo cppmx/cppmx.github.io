@@ -87,6 +87,22 @@
             "url": "https://amzn.to/3gcvn5u",
             "category": "game",
             "tags": "videogames,dev,pattern"
+        },
+        {
+            "id": 1942788011,
+            "title": "Introduction To Algorithms",
+            "author": "Et Al. Cormen",
+            "url": "https://amzn.to/3gcIJ1C",
+            "category": "algorithm",
+            "tags": "algorithms,dev,datastructures"
+        },
+        {
+            "id": 1942788012,
+            "title": "Algorithm Design",
+            "author": "Jon Kleinberg",
+            "url": "https://amzn.to/31a37w2",
+            "category": "algorithm",
+            "tags": "algorithms,dev,design"
         }
     ]
 }
