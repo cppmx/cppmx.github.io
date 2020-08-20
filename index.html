@@ -25,7 +25,7 @@ keywords: development videogames artificial intelligence devops topics
                                 <div class="btn-group">{% assign posts_url = '/' | append: section.url | append: '.html' %}
                                     <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ posts_url | absolute_url }}">Posts</a>
                                     <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ "/library.html" | absolute_url }}">Books</a>
-                                </div>{% assign posts_count = site.posts | where: "categories", section.name | size %}
+                                </div>{% assign posts_count = site.posts | where: "categories", section.image | size %}
                                 <small class="text-muted">Posts: {{posts_count}}</small>
                             </div>
                         </div>
