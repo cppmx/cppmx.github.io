@@ -5,6 +5,7 @@ date: 2020-07-24 10:00:00 -0500
 short: Comparison of growth rate functions
 author: Carlos Colón
 categories: algorithm
+tags: algorithm,dev,BigO
 ---
 The first step in finding the big O of a complexity function is to remove all terms except the one with the highest growth rate. To be able to do that, we must know the growth rate of some common functions. In the following figure, we have plotted some of the most common functions:
 

@@ -5,6 +5,7 @@ date:   2020-07-25 10:00:00 -0500
 categories: tests
 author: Carlos Colón
 short: Testing is a very complex activity, here are some general testing principles.
+tags: testing,software,devops,agile
 ---
 ## Testing shows the presence of bugs
 

@@ -6,6 +6,7 @@ date:   2020-07-25 09:00:00 -0500
 categories: development
 author: Carlos Colón
 short: Have you ever wondered what software engineering is and why it is so important?
+tags: software,engineer,students
 ---
 A formal definition of software engineering might sound something like, “An organized, analytical approach to the design, development, use, and maintenance of software.”
 

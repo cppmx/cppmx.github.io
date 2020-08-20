@@ -8,7 +8,7 @@ layout: 'default'
             {{ page.date | date_to_string }} by <a href="http://bit.ly/ccolonr" target="__blank">{{page.author}}</a>
             <span class="social-sub">Share on:
                 <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="__blank"><i class="fa fa-facebook" title="Facebook"></i></a>&nbsp;
-                {% assign hashtags = page.categories | join: "," %}
+                {% assign hashtags = page.tags | join: "," %}
                 <a href="https://twitter.com/intent/tweet?text={{page.short}}%0A%0A&url={{ page.url | absolute_url }}&hashtags=cppmx,{{hashtags}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" rel="noopener noreferrer" title="Twitter"></i></a>&nbsp;
                 <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{page.title}}&summary={{page.short}}&source={{ page.url | absolute_url }}" target="__blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a>
             </span>
@@ -22,7 +22,7 @@ layout: 'default'
                 <i class="fa fa-facebook"></i>
             </a>
             <!-- Twitter Share Button -->
-            {% assign hashtags = page.categories | join: "," %}
+            {% assign hashtags = page.tags | join: "," %}
             <a class="fbtn share twitter" href="https://twitter.com/intent/tweet?text={{page.short}}%0A%0A&url={{ page.url | absolute_url }}&hashtags=cppmx,{{hashtags}}">
                 <i class="fa fa-twitter"></i>
             </a>

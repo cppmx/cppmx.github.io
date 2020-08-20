@@ -5,6 +5,7 @@ date: 2020-07-24 10:00:00 -0500
 short: Examples of software failure are depressingly common. Here are some you may recognise.
 author: Carlos Colón
 categories: tests
+tags: testing,software,devops
 ---
 - After successful test flights and air worthiness accreditation, problems arose in the manufacture of the Airbus A380 aircraft. Assembly of the large subparts into the completed aircraft revealed enormous cabling and wiring problems. The wiring of large subparts could not be joined together. It has been estimated that the direct or indirect costs of rectification were $6.1 billion. (Note: this problem was quickly fixed and the aircraft entered into service within 18 months of the cabling difficulties being identified.)
 

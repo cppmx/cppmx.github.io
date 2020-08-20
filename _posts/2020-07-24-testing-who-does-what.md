@@ -5,6 +5,7 @@ date: 2020-07-24 09:00:00 -0500
 short: Do you know who is responsible for doing the tests? Read this post to find out.
 author: Carlos Colón
 categories: tests
+tags: testing,software,devops
 ---
 So we have Unit Testing, Integration Testing, System Testing and User Acceptance Testing. Of these, the Unit Testing is primarily the responsibility of the Development team. While Integration Testing has a shared responsibility between developers and testers. The term test level serves to indicate the focus of testing and the typical problems uncovered.
 
