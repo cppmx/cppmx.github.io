@@ -119,6 +119,22 @@
             "url": "https://amzn.to/3aEtTzK",
             "category": "development",
             "tags": "devops,ContinuousDelivery,testing,automation"
+        },
+        {
+            "id": 1942788015,
+            "title": "Robot Framework Second Edition (English Edition) Edición Kindle",
+            "author": "Gerardus Blokdyk",
+            "url": "https://amzn.to/32mjhTJ",
+            "category": "tests",
+            "tags": "testing,e2e,python,robotframework,automation,docker"
+        },
+        {
+            "id": 1942788016,
+            "title": "Robot Framework Test Automation",
+            "author": "Sumit Bisht",
+            "url": "https://amzn.to/2Rf2Q5o",
+            "category": "tests",
+            "tags": "testing,e2e,python,robotframework,automation,docker"
         }
     ]
 }
