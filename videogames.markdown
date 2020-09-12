@@ -1,6 +1,6 @@
 ---
 title: Video Games
 layout: posts
-query: game
+query: videogames
 keywords: videogames topics
 ---

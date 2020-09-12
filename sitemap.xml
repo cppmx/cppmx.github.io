@@ -38,7 +38,7 @@
 <url>
   <loc>https://cppmx.github.io/library.html</loc>
   <lastmod>2020-08-19T08:43:28+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://cppmx.github.io/privacy.html</loc>
@@ -75,5 +75,9 @@
   <lastmod>2020-09-11T18:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://cppmx.github.io/videogames/2020/09/12/uml-and-videogames.html</loc>
+  <lastmod>2020-09-11T18:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 </urlset>
