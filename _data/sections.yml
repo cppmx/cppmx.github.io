@@ -12,7 +12,7 @@
   url: ai
 - name: Videogames
   description: Videogames topics
-  image: game
+  image: videogames
   url: videogames
 - name: Algorithms
   description: Algorithm topics
