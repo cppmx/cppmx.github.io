@@ -56,7 +56,7 @@ In UML, this is normally shown by a solid line with a hollow arrow and looks lik
 
 # Aggregation
 
-The idea of aggregation is designated by the HAS-A relationship. This is when a single class contains a collection of instances of other classes that are obtained from somewhere else in your program. These are considered to have a weak HAS-A relationship as they can exist outside of the confines of the class.
+The idea of aggregation is designated by the [HAS-A relationship](https://en.wikipedia.org/wiki/Has-a). This is when a single class contains a collection of instances of other classes that are obtained from somewhere else in your program. These are considered to have a weak [HAS-A relationship](https://en.wikipedia.org/wiki/Has-a) as they can exist outside of the confines of the class.
 
 In this case, I created a new class called CombatEncounter which can have an unlimited number of enemies that can be added to it. However when using aggregation, those enemies will exist before the CombatEncounter starts; and when it finishes, they will also still exist. Through code it would look something like this:
 
@@ -76,7 +76,7 @@ Inside of UML, it would look like this:
 
 # Composition
 
-When using composition, this is a strong HAS-A relationship, and this is when a class contains one or more instances of another class. Unlike aggregation, these instances are not created on their own but, instead, are created in the constructor of the class and then destroyed by its destructor. Put into layman's terms, they can't exist separately from the whole.
+When using composition, this is a strong [HAS-A relationship](https://en.wikipedia.org/wiki/Has-a), and this is when a class contains one or more instances of another class. Unlike aggregation, these instances are not created on their own but, instead, are created in the constructor of the class and then destroyed by its destructor. Put into layman's terms, they can't exist separately from the whole.
 
 In this case, we have created some new properties for the Enemy class, adding in combat skills that it can use, as in the Pokémon series. In this case, for every one enemy, there are four skills that the enemy will be able to have:
 
