@@ -135,6 +135,37 @@
             "url": "https://amzn.to/2Rf2Q5o",
             "category": "tests",
             "tags": "testing,e2e,python,robotframework,automation,docker"
+        },
+        {
+            "id": 1942788017,
+            "title": "Raspberry Pi: An Advanced Guide to Setup, Expert Programming(Concepts, theories and techniques) and Build Raspberry Pi Projects (English Edition)",
+            "author": "Joe Grant",
+            "url": "https://amzn.to/3cGhvk0",
+            "category": "ai",
+            "tags": "RaspberryPi,electrocinc,development"
+        }
+    ],
+    "gadgets": [
+        {
+            "id": 2020788010,
+            "title": "Nuevo Echo Dot (4ta Gen) - Bocina inteligente con reloj y Alexa",
+            "url": "https://amzn.to/2EzRDcM",
+            "category": "alexa",
+            "tags": "amazon,alexa"
+        },
+        {
+            "id": 2020788011,
+            "title": "Presentamos Echo Show 8 - Pantalla inteligente HD de 8'' con Alexa",
+            "url": "https://amzn.to/2EBrH0z",
+            "category": "alexa",
+            "tags": "amazon,alexa"
+        },
+        {
+            "id": 2020788012,
+            "title": "Raspberry Pi 4 Modelo B 2019 Quad Core 64 bit WiFi Bluetooth (4 GB)",
+            "url": "https://amzn.to/2G8UpGz",
+            "category": "electronics",
+            "tags": "RaspberryPi"
         }
     ]
 }

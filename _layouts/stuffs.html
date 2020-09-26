@@ -1,0 +1,48 @@
+---
+layout: 'default'
+---
+<h1 class="pb-3 mb-4 font-italic border-bottom">{{page.title}}</h1>
+<h5>{{ page.description }}</h5>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            {% assign gadgets = site.data.ads['gadgets'] | where: "category", page.query | sort: 'category' %}
+            {% for gadget in gadgets %}
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    {% assign image_url = 'images/gadgets/' | append: gadget.id | append: '.jpg' %}
+                    <img class="card-img-top img-fluid" src="{{ image_url | absolute_url }}" alt="{{ gadget.title }} cover">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ gadget.title }}</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a type="button" class="btn btn-sm btn-outline-secondary"
+                                    href="{{ gadget.url | absolute_url }}" target="__blank" rel="nofollow">View more info</a>
+                            </div>
+                            <span class="social-sub">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ gadget.url | absolute_url }}" target="__blank"><i
+                                        class="fa fa-facebook" title="Facebook"></i></a>&nbsp;
+                                {% assign hashtags = page.categories | join: "," %}
+                                <a
+                                    href="https://twitter.com/intent/tweet?text=I want to recommend this book: {{gadget.title}} via @cppmx&url={{ gadget.url | absolute_url }}&hashtags=cppmx,shareabook,{{gadget.tags}}" target="__blank"><i
+                                        class="fa fa-twitter" aria-hidden="true" rel="noopener noreferrer"
+                                        title="Twitter"></i></a>&nbsp;
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ gadget.url | absolute_url }}&title=I found this book on the CPP MX blog and I want to recommend it to you.&summary={{gadget.title}}&source={{ gadget.url | absolute_url }}"
+                                    target="__blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<aside class="col-md-4 blog-left-sidebar">
+    <div class="card mb-4 box-shadow">
+        <a class="twitter-timeline" href="https://twitter.com/cppmx" data-chrome="nofooter noborders" data-tweet-limit="2" data-width="300">
+            Tweets by @cppmx
+        </a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</aside>
