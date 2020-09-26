@@ -24,10 +24,10 @@ layout: 'default'
                                         class="fa fa-facebook" title="Facebook"></i></a>&nbsp;
                                 {% assign hashtags = page.categories | join: "," %}
                                 <a
-                                    href="https://twitter.com/intent/tweet?text=I want to recommend this book: {{gadget.title}} via @cppmx&url={{ gadget.url | absolute_url }}&hashtags=cppmx,shareabook,{{gadget.tags}}" target="__blank"><i
+                                    href="https://twitter.com/intent/tweet?text=Check this: {{gadget.title}} via @cppmx&url={{ gadget.url | absolute_url }}&hashtags=cppmx,shareabook,{{gadget.tags}}" target="__blank"><i
                                         class="fa fa-twitter" aria-hidden="true" rel="noopener noreferrer"
                                         title="Twitter"></i></a>&nbsp;
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ gadget.url | absolute_url }}&title=I found this book on the CPP MX blog and I want to recommend it to you.&summary={{gadget.title}}&source={{ gadget.url | absolute_url }}"
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ gadget.url | absolute_url }}&title=I found this gadget on the CPP MX blog and I want to recommend it to you.&summary={{gadget.title}}&source={{ gadget.url | absolute_url }}"
                                     target="__blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a>
                             </span>
                         </div>
